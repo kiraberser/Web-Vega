@@ -4,25 +4,36 @@
     <meta charset="UTF-8">
     <meta name="Taladros" content="Refaccion de Taladros">
     <title>Vega</title>
-    <h1>Bienvenidos a Refaccionaria "Vega"</h1>
     <link rel="stylesheet" href="../styles.css">
-    <span onclick="alert('Seguro que quiere salir de aquí?');" class="imagen">
-        <a 
-        href="../index.html"
-        title="El mejor lugar para encontrar refacciones de electrodomesticos"
-        > 
-        <img src="/images/icono.jpeg" id="Logo">
-        </a>
-    </span>
     <script src="/script.js" defer></script>
 </head>
 <body>
+    <header class="header">
+        <a href="../index.html">
+            <img src="/images/icono.jpeg" class="Logo">
+        </a>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Gallery</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    <p><strong>Bienvenidos a Refaccionaria "Vega"</strong></p>
     <strong><p>Refacciones de Taladros:</p></strong>
-    <ul>
-        <li><a href="#">Carbones</a></li>
-        <li><a href="#">Broca</a></li>
-        <li><a href="#">Switch</a></li>
-        <li><a href="#">Campo</a></li>
-    </ul>
+    <dl>
+        <dt>Carbones</dt>
+        <dd>Los carbones son piezas conductoras utilizadas en el motor de un taladro para generar energía.</dd>
+        
+        <dt>Broca</dt>
+        <dd>La broca es una herramienta utilizada para perforar agujeros en diferentes materiales, como madera, metal o plástico.</dd>
+        
+        <dt>Switch</dt>
+        <dd>El switch, también conocido como interruptor, es un componente utilizado para encender y apagar el taladro.</dd>
+        
+        <dt>Campo</dt>
+        <dd>Es una parte del motor que genera el movimiento rotativo necesario para perforar.</dd>
+    </dl>  
 </body>
 </html>

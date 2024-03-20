@@ -9,40 +9,47 @@
     <meta property="og:url">
     <meta property="Description" content="Refacciones de electrodomésticos">
     <meta property="og:local" content="">
-    <h1>Bienvenidos a Refaccionaria "Vega"</h1>
     <title>Refaccionaria "Vega"</title>
     <link rel="stylesheet" href="./styles.css">
-    <span onclick="alert('Seguro que quiere salir de aquí?');" class="imagen">
-        <a 
-        href="#"
-        title="El mejor lugar para encontrar refacciones de electrodomesticos"
-        > 
-        <img src="/images/icono.jpeg" id="Logo">
-        </a>
-    </span>
-    <script src="/script.js" defer></script>
 </head>
-<body id="body">
-    <p>Podras encontrar <a href="#"><strong>refacciones</strong></a> de los siguientes aparatos:</p>
-    <l> 
-        <li><a href="./aparatos/ventilador.html">Ventiladores</a></li>
-        <li><a href="./aparatos/pulidora.html">Pulidoras</a></li>
-        <li><a href="./aparatos/taladros.html">Taladros</a></li>
-        <li><a href="./aparatos/microondas.html">Microondas</a></li>
-        <li><a href="./aparatos/bombas.html">Bombas de agua</a></li>
-    </ul>
-</body>
+<body>
+    <header class="header">
+        <img src="/images/icono.jpeg" class="Logo">
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Gallery</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>    
+<div class="content">
+    <div class="text-container">
+        <h1>Bienvenidos a Refaccionaria "Vega"</h1>
+        <p>Podras encontrar <a href="#"><strong>refacciones</strong></a> de los siguientes aparatos:</p>
+        <ul> 
+            <li><a href="./aparatos/ventilador.html">Ventiladores</a></li>
+            <li><a href="./aparatos/pulidora.html">Pulidoras</a></li>
+            <li><a href="./aparatos/taladros.html">Taladros</a></li>
+            <li><a href="./aparatos/microondas.html">Microondas</a></li>
+            <li><a href="./aparatos/bombas.html">Bombas de agua</a></li>
+        </ul>
+    </div>
+    <div class="img-container">
+        <img src="./images/icono.jpeg" class="img-body">
+    </div>
+</div>
 <footer>
     <div class="container">
-    <p>© 2024 Refaccionaria Vega</p>
-    <nav>
-        <ul>
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">Servicios</a></li>
-            <li><a href="#">Acerca de</a></li>
-            <li><a href="/footer.html">Contacto</a></li>
-        </ul>
-    </nav>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Servicios</a></li>
+                <li><a href="#">Acerca de</a></li>
+                <li><a href="/footer.html">Contacto</a></li>
+            </ul>
+        </nav>
     </div>
 </footer>  
+</body>
 </html>

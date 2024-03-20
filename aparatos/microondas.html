@@ -4,24 +4,33 @@
     <meta charset="UTF-8">
     <meta name="Microondas" content="Refacciones de microondas">
     <title>Vega</title>
-    <h1>Bienvenidos a Refaccionaria "Vega"</h1>
     <link rel="stylesheet" href="../styles.css">
-    <span onclick="alert('Seguro que quiere salir de aquí?');" class="imagen">
-        <a 
-        href="../index.html"
-        title="El mejor lugar para encontrar refacciones de electrodomesticos"
-        > 
-        <img src="/images/icono.jpeg" id="Logo">
-        </a>
-    </span>
     <script src="/script.js" defer></script>
 </head>
 <body>
+    <header class="header">
+        <a href="../index.html">
+            <img src="/images/icono.jpeg" class="Logo">
+        </a>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Gallery</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    <p><strong>Bienvenidos a Refaccionaria "Vega"</strong></p>
     <strong><p>Refacciones de microondas</p></strong>
-    <ul>
-        <li><a href="#">Plato</a></li>
-        <li><a href="#">Capacitor</a></li>
-        <li><a href="#">Tablero</a></li>
-    </ul>
+    <dl>
+        <dt>Plato</dt>
+        <dd>El plato es la parte giratoria del microondas que sostiene y calienta los alimentos.</dd>
+        
+        <dt>Capacitor</dt>
+        <dd>Un capacitor es un componente electrónico utilizado para almacenar energía eléctrica.</dd>
+        
+        <dt>Tablero</dt>
+        <dd>El tablero, en el contexto de un microondas, puede referirse al panel de control que permite configurar las funciones del aparato.</dd>
+    </dl>  
 </body>
 </html>
