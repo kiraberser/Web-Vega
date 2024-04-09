@@ -1,23 +1,36 @@
 
+html {
+    box-sizing: border-box;
+}
+
 .header {
     /* Color de fondo */
     padding: 10px; /* Espaciado interno */
     display: flex; /* Contenido en línea */
     justify-content: space-between; 
     align-items: center; 
-    
+    position: fixed;
+    background: linear-gradient(white, hsl(223, 90%, 60%, 60%) );
+    width: 100%;
+    right: 0px;
+    left: 0px;
+    top: 0;
 }
 
+.div {
+    display: block;
+}
 /* Estilo del logo */
 .Logo {
     width: 50px; /* Tamaño del logo */
     height: auto;
-    border-radius: 30%;
+    border-radius: 100%;
 }
 
 body {
     display: flex;
     flex-direction: column;
+    left: 0;
 }
 
 /* Estilo de los enlaces del navbar */
@@ -28,6 +41,7 @@ nav a {
     margin-left: 40px;
     position: relative;
     font-weight: 500;
+    right: 50px;
 }
 
 
@@ -53,12 +67,14 @@ nav a:hover::before {
 }
 
 footer {
+    margin: 0 auto;
     position: fixed;
     bottom: 0;
-    left: 0;
     width: 100%;
-    background-color: darkblue;
+    background: linear-gradient(white, hsl(223, 90%, 60%));
     padding: 20px;
+    text-align: center;
+    left: 0;
 }
 
 .container {
@@ -109,11 +125,7 @@ nav ul li a {
 }
 
 .two {
-    order: 2;
-    background-color: antiquewhite;
-    left: 0;
-    width: 100%;
-    padding-left: 20px;
+    position: relative;
 }
 
 .names {
@@ -121,4 +133,22 @@ nav ul li a {
     flex-direction: row;
     justify-content: space-between;
     padding: 40px;
+}
+
+.three {
+    order: 3;
+    width: 100%;
+    left: 0;
+}
+
+.servicios {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 40px;
+    margin-bottom: 80px;
+}
+
+.background {
+    background-color: white;
 }
